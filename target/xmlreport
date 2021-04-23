@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.126414">
+<testcase classname="Google Functionality" name="Google Search Functionality" time="0.119608">
+<system-out><![CDATA[Given User should be navigated to the Google Search page....................passed
+When He enter any value in the Search Box...................................passed
+And Click on Search Button..................................................passed
+Then Related Results will be displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Functionality" name="Write String in Google Search Textbox for background example" time="0.005868">
+<system-out><![CDATA[Given User should be navigated to the Google Search page....................passed
+When He enter any value "value1" in the Search Box..........................passed
+And Click on Search Button..................................................passed
+Then Related Results like "value2" and "value3" will be displayed...........passed
+Then Related Results will be displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Functionality" name="Write String in Google Search Textbox for background example 2" time="0.000378">
+<system-out><![CDATA[Given User should be navigated to the Google Search page....................passed
+When He enter any value "value3" in the Search Box..........................passed
+And Click on Search Button..................................................passed
+Then Related Results like "value4" and "value5" will be displayed...........passed
+Then Related Results will be displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Functionality" name="Write String in Google Search Textbox for background example 3" time="0.00056">
+<system-out><![CDATA[Given User should be navigated to the Google Search page....................passed
+When He enter any value "value6" in the Search Box..........................passed
+And Click on Search Button..................................................passed
+Then Related Results like "value7" and "value8" will be displayed...........passed
+Then Related Results will be displayed......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

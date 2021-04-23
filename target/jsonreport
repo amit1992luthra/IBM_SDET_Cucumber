@@ -1,0 +1,447 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "First Step of Every Scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 119331501,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be navigated to the Google Search page",
+            "match": {
+              "location": "StepDefination.user_should_be_navigated_to_the_Google_Search_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Google Search Functionality",
+        "description": "",
+        "id": "google-functionality;google-search-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "He enter any value in the Search Box",
+            "match": {
+              "location": "StepDefination.he_enter_any_value_in_the_Search_Box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92799,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "StepDefination.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Related Results will be displayed",
+            "match": {
+              "location": "StepDefination.related_Results_will_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@smoke"
+          },
+          {
+            "line": 7,
+            "name": "@regression"
+          },
+          {
+            "line": 7,
+            "name": "@abc"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "First Step of Every Scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 176100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be navigated to the Google Search page",
+            "match": {
+              "location": "StepDefination.user_should_be_navigated_to_the_Google_Search_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Write String in Google Search Textbox for background example",
+        "description": "",
+        "id": "google-functionality;write-string-in-google-search-textbox-for-background-example;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5279101,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "He enter any value \"value1\" in the Search Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value1",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.he_enter_any_value_in_the_Search_Box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "StepDefination.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Related Results like \"value2\" and \"value3\" will be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value2",
+                  "offset": 22
+                },
+                {
+                  "val": "value3",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.related_Results_like_and_will_be_displayed(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128999,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Related Results will be displayed",
+            "match": {
+              "location": "StepDefination.related_Results_will_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@smoke"
+          },
+          {
+            "line": 1,
+            "name": "@featuretag"
+          },
+          {
+            "line": 13,
+            "name": "@xyz"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "First Step of Every Scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 64500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be navigated to the Google Search page",
+            "match": {
+              "location": "StepDefination.user_should_be_navigated_to_the_Google_Search_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Write String in Google Search Textbox for background example",
+        "description": "",
+        "id": "google-functionality;write-string-in-google-search-textbox-for-background-example;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 107500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "He enter any value \"value3\" in the Search Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value3",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.he_enter_any_value_in_the_Search_Box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "StepDefination.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Related Results like \"value4\" and \"value5\" will be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value4",
+                  "offset": 22
+                },
+                {
+                  "val": "value5",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.related_Results_like_and_will_be_displayed(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Related Results will be displayed",
+            "match": {
+              "location": "StepDefination.related_Results_will_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@smoke"
+          },
+          {
+            "line": 1,
+            "name": "@featuretag"
+          },
+          {
+            "line": 13,
+            "name": "@xyz"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "First Step of Every Scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be navigated to the Google Search page",
+            "match": {
+              "location": "StepDefination.user_should_be_navigated_to_the_Google_Search_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Write String in Google Search Textbox for background example",
+        "description": "",
+        "id": "google-functionality;write-string-in-google-search-textbox-for-background-example;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 133300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "He enter any value \"value6\" in the Search Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value6",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.he_enter_any_value_in_the_Search_Box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "StepDefination.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Related Results like \"value7\" and \"value8\" will be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value7",
+                  "offset": 22
+                },
+                {
+                  "val": "value8",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.related_Results_like_and_will_be_displayed(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Related Results will be displayed",
+            "match": {
+              "location": "StepDefination.related_Results_will_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@smoke"
+          },
+          {
+            "line": 1,
+            "name": "@featuretag"
+          },
+          {
+            "line": 13,
+            "name": "@xyz"
+          }
+        ]
+      }
+    ],
+    "name": "Google Functionality",
+    "description": "",
+    "id": "google-functionality",
+    "keyword": "Feature",
+    "uri": "test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@featuretag"
+      }
+    ]
+  }
+]
